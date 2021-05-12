@@ -2,10 +2,6 @@
   <div id="app">
     <!-- 路由的出口 -->
     <router-view />
-    <div>
-      <i class="toutiao toutiao-wuwangluo"></i>
-      <van-button type="primary">主要按钮</van-button>
-    </div>
   </div>
 </template>
 
@@ -18,4 +14,9 @@ export default {
 </script>
 
 <style lang="less">
+.box {
+  width: 750px;
+  height: 100px;
+  background-color: #ccc;
+}
 </style>
